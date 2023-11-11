@@ -27,6 +27,7 @@ body{
     background-color: rgb(3, 3, 231);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contenedor-azul h5{
     line-height: 3.3vh;
@@ -34,7 +35,8 @@ body{
 }
 .contenedor-azul-2{
     text-align: center;
-    width: 70vw;
+    width: 15vw;
+    
     padding-top: 30px;
     color: rgb(192, 192, 192);
 }
@@ -44,6 +46,8 @@ body{
     border-radius: 200px;
     background-color: rgb(74, 74, 189);
     text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 
 }
 .contenedor-circulo{
