@@ -11,7 +11,9 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+h1{
+    font-size: 16px;
+}
 .contenedor-principal{
     width: 40vw;
     box-shadow: 1px 1px 10px  1px;
@@ -121,8 +123,46 @@ button{
 button:hover{
     background-color: rgb(76, 0, 255);
 }
-@media (max-width: 880px){
+@media (min-width: 600px) and (max-width: 800px) and (min-height: 500px) and (max-height: 600px) {
 
+    .contenedor-principal{
+        width: 70vw;
+        height: 60vh;
+    }
+    .contenedor-azul{
+        width: 37vw;
+    }
+    .contenedor-azul-2{
+        width: 30vw;
+        height: 50vh;
+    }
+    .cuadro{
+        background-color: rgb(66, 155, 155);
+        width: 28vw;
+    }
+    .cuadro h3{
+        margin-left: 5px;
+    }
+    .letra{
+        font-size: 11px;
+    
+        width: 16vw;
+        margin-right: 1vw;
+        background-color: rgb(0, 0, 0);
+    }
+    .circulo{
+        width: 20vw;
+        height: 20vh;
+    }
+    .circulo h2{
+        font-size: 55px;
+    }
+    button{
+        width: 28vw;
+    }
+}
+
+@media (max-width: 600px){
     .contenedor-principal{ 
         width: 100vw;
         height: 100vh;
@@ -185,14 +225,10 @@ button:hover{
         width: 40vw;
         padding-left:20px ;
     }
-    .letra h3{
-        text-align: left;
-    }
-    
     .cuadro h3{
         font-size: 13px;
         margin-right: 15px;
-        padding-left: 6px ;
+        padding-left: 8px ;
     }
 
     button{
@@ -200,3 +236,5 @@ button:hover{
         margin-top: -9px;
     }
 }
+
+
