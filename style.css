@@ -139,6 +139,9 @@ button:hover{
         border-bottom-right-radius: 40px ;
         border-bottom-left-radius: 40px;
     }
+    .contenedor-azul-2{
+        width: 56vw;
+    }
     .circulo{
         width: 34vw;
         height: 20vh;
