@@ -16,7 +16,7 @@ main{
 
 }
 h1{
-    font-size: 16px;
+    font-size: 20px;
 }
 .contenedor-principal{
     width: 700px;
@@ -35,8 +35,8 @@ h1{
     align-items: center;
 }
 .contenedor-azul h5{
-    line-height: 15px;
-    font-size: 12px;
+    line-height: 18px;
+    font-size: 15px;
 }
 .contenedor-azul-2{
     text-align: center;
@@ -60,7 +60,7 @@ h1{
     justify-content: center;
 }
 .circulo h2{
-    padding-top: 3vh;
+    padding-top: 3px;
     font-size:78px;
 }
 .contenedor-azul-2 h5{
@@ -81,18 +81,18 @@ h1{
 
 .cuadro-contenedor{
     overflow: hidden;
+    margin-bottom: 22px;
 }
 .cuadro{
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 240px;
-    height: 50px;
-    margin-top: 9px;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 4px;
-    margin-bottom: 9px;
     
 }
 
@@ -140,7 +140,7 @@ h1{
 }
 
 button{
-    width: 195px;
+    width: 250px;
     height: 39px;
     border: 0px;
     cursor: pointer;
