@@ -23,17 +23,17 @@ h1{
     font-size: 16px;
 }
 .contenedor-principal{
-    width: 40vw;
+    width: 500px;
     box-shadow: 1px 1px 10px  1px;
     border-radius: 30px;
     display: flex;
-    height: 60vh;
+    height: 350px;
 }
 .contenedor-azul{
-    width: 20vw;
+    width: 260px;
     border-radius: 30px;
     color:white;   
-    background-color: rgb(3, 3, 231);
+    background-color: rgb(74, 74, 189);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ h1{
 }
 .contenedor-azul-2{
     text-align: center;
-    width: 17vw;
+    width: 220px;
     padding-top: 9px;
     height: 50vh;
     
@@ -54,7 +54,7 @@ h1{
     width: 12vw;
     height: 26vh;
     border-radius: 200px;
-    background-color: rgb(74, 74, 189);
+    background-color: rgb(49, 49, 255);
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -74,19 +74,19 @@ h1{
     margin-bottom: 2vh;
 }
 .contenedor-blanco{
-    margin-top: 7vh;
+    margin-top: 6vh;
     margin-left: 2vw;
 }
 
 .cuadro-contenedor{
     width: 16vw;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 .cuadro{
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 14vw;
+    width: 190px;
     height: 6.3vh;
     margin-top: 3vh;
     border-radius: 12px;
@@ -139,8 +139,8 @@ h1{
 }
 
 button{
-    width: 14vw;
-    height: 7vh;
+    width: 195px;
+    height: 39px;
     border: 0px;
     cursor: pointer;
     border-radius: 50px;
